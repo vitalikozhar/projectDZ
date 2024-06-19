@@ -1,0 +1,16 @@
+@import 'vars';
+@import 'mainStyle';
+@import 'mixins';
+
+.main-block{
+    width: 100%;
+    margin: 20px;
+    float: left;
+
+
+   >div{
+    @include blocks(5)
+   }
+}
+
+ 

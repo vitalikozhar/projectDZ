@@ -1,0 +1,4 @@
+*.sass
+bin/
+config/
+admin/
